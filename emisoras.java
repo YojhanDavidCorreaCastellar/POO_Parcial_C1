@@ -188,7 +188,6 @@ class Programa {
 //CLASE PERSONA
 //----------------------------------------------------------------
 
-
 class Persona {
     protected int cedula;
     protected String nombre;
@@ -441,7 +440,6 @@ public class emisoras {
         System.out.println("Teléfonos: " + consorcio.getTelefonos());
         System.out.println("Productores: \n" + consorcio.getProductores());
 
-
         Programa programa1 = new Programa("MTV", "Musical", false, 0);
         Programa programa2 = new Programa("ESPN", "Deportivo", false, 0);
         Programa programa3 = new Programa("Noticias Caracol", "Informativo", true, 0);
@@ -453,7 +451,6 @@ public class emisoras {
         System.out.println("----- PROGRAMAS -------");
         System.out.println("Programa: " + programa1.getNombre() + ", Género: " + programa1.getGenero());
         System.out.println("Programa: " + programa2.getNombre() + ", Género: " + programa2.getGenero());
-        
         System.out.println();
         System.out.println("Resumen: " + programa3.getNombre() + ", Género: " + programa3.getGenero());
         System.out.println("Programas base del resumen:");
